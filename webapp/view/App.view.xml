@@ -1,0 +1,15 @@
+<mvc:View
+    controllerName="com.swiggy.swiggy.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<mvc:XMLView viewName="com.swiggy.swiggy.view.View1"></mvc:XMLView>
+                <mvc:XMLView viewName="com.swiggy.swiggy.view.View2"></mvc:XMLView>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
